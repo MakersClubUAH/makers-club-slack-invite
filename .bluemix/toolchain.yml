@@ -13,9 +13,9 @@ template:
     - slackin-repo
   info:
     git url: >-
-      [https://github.com/rauchg/slackin](https://github.com/rauchg/slackin)
+      [https://github.com/MakersClubUAH/slackin](https://github.com/MakersClubUAH/slackin)
     git branch: >-
-      [master](https://github.com/rauchg/slackin/tree/master)
+      [master](https://github.com/MakersClubUAH/slackin/tree/master)
 toolchain:
   name: 'slackin-toolchain-{{timestamp}}'
   template:
@@ -26,7 +26,7 @@ services:
     service_id: githubpublic
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/rauchg/slackin'
+      repo_url: 'MakersClubUAH/slackin'
       type: clone
       has_issues: true
       enable_traceability: true

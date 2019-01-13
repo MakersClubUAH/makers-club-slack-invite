@@ -83,3 +83,6 @@ All the metadata for your organization can be fetched via a JSON HTTP request to
 4. Transpile the source code and watch for changes: `npm start`
 
 Yey! Now can use the `slack` command everywhere.
+
+### Makers Club Updates:
+Running on 13-Jan-2019
